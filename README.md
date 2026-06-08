@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# yoleneconstable.dev
 
-## Getting Started
+Portfolio personnel de Yolène Constable, développeuse Front-End spécialisée React & Next.js.
 
-First, run the development server:
+Ce projet a pour objectif de présenter mon parcours, mes réalisations, mes compétences techniques ainsi que les services que je propose aux indépendants, PME et associations.
+
+## Aperçu
+
+Le portfolio met en avant :
+
+* Mes projets sélectionnés
+* Mon expérience professionnelle
+* Mes compétences techniques
+* Mes services web
+* Mes coordonnées et réseaux professionnels
+
+## Stack technique
+
+### Front-End
+
+* React
+* Next.js (App Router)
+* TypeScript
+* Tailwind CSS
+
+### Outils
+
+* Git & GitHub
+* ESLint
+
+## Fonctionnalités
+
+* Design responsive mobile-first
+* Optimisation SEO
+* Accessibilité
+* Performance optimisée
+* Animations fluides
+* Présentation de projets et études de cas
+
+## Installation
+
+Clonez le dépôt :
+
+```bash
+git clone https://github.com/Yawleen/yoleneconstable-dev.git
+```
+
+Accédez au projet :
+
+```bash
+cd yoleneconstable-dev
+```
+
+Installez les dépendances :
+
+```bash
+npm install
+```
+
+Lancez le serveur de développement :
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez ensuite :
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```txt
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Scripts disponibles
 
-## Learn More
+```bash
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Lance le serveur de développement.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Construit l'application pour la production.
 
-## Deploy on Vercel
+```bash
+npm run start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Démarre l'application en mode production.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run lint
+```
+
+Analyse le code avec ESLint.
+
+## Déploiement
+
+Le projet est déployé sur GitHub Pages et accessible à l'adresse :
+
+[yoleneconstable.dev](https://yoleneconstable.dev)
+
+## Contact
+
+* LinkedIn : [www.linkedin.com/in/constable-yolene](https://www.linkedin.com/in/constable-yolene)
+* GitHub : https://github.com/Yawleen
+* Email : [yoleneconstable@gmail.com](mailto:yoleneconstable@gmail.com)
+
+---
+
+© Yolène Constable — Front-End Developer
