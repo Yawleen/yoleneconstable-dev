@@ -8,3 +8,12 @@ export const fadeIn = {
     y: 0,
   },
 };
+
+export const staggerContainer = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.18,
+    },
+  },
+};

@@ -3,16 +3,7 @@ import LinkButton from '../LinkButton';
 import { SECTION_IDS } from '@/constants/section-ids';
 import Image from 'next/image';
 import { motion } from 'motion/react';
-import { fadeIn } from '../../lib/animations';
-
-const container = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.18,
-    },
-  },
-};
+import { fadeIn, staggerContainer } from '../../lib/animations';
 
 const imageAnimation = {
   hidden: {
@@ -32,7 +23,11 @@ const imageAnimation = {
 const Hero = () => {
   return (
     <Section isHero>
-      <motion.div variants={container} initial="hidden" animate="visible">
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        animate="visible"
+      >
         <motion.div variants={fadeIn}>
           <h1>Yolène Constable</h1>
           <p className="mb-6 md:mb-8">
