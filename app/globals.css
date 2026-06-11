@@ -105,7 +105,7 @@
   }
 
   h1 {
-    @apply text-4xl md:text-5xl;
+    @apply text-4xl md:text-5xl mb-4 md:mb-6;
   }
 
   h2 {
@@ -136,18 +136,18 @@
   }
 
   .keyword {
-    @apply inline-block text-primary font-medium bg-primary-foreground px-2 py-1 md:px-3 md:py-1;
+    @apply border-b-2 border-primary;
   }
 
   .btn {
     @apply w-max flex justify-center items-center font-medium text-primary-foreground text-base md:text-lg px-4 py-2 md:px-8 md:py-4 transition-colors cursor-pointer;
   }
 
-  .btn-primary {
+  .btn--primary {
     @apply bg-primary hover:bg-primary/90 focus:bg-primary/90;
   }
 
-  .btn-outline {
+  .btn--outline {
     @apply border border-border hover:border-primary focus:border-primary;
   }
 
