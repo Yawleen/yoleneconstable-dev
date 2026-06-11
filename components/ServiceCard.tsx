@@ -10,7 +10,10 @@ const ServiceCard = ({ icon, title, description }: Service) => {
       variants={fadeIn}
       className="space-y-6 p-8 md:p-10 border border-border hover:border-primary/50 hover:-translate-y-1 transition-all duration-300"
     >
-      <Icon className="size-8 text-muted-foreground/60" strokeWidth={1.5} />
+      <Icon
+        className="size-7 md:size-8 text-muted-foreground/60"
+        strokeWidth={1.5}
+      />
       <div className="space-y-4">
         <h3>{title}</h3>
         <p className="description">{description}</p>
