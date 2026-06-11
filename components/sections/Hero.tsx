@@ -1,4 +1,4 @@
-import Section from '../Section';
+import Section from '../layout/Section';
 import LinkButton from '../LinkButton';
 import { SECTION_IDS } from '@/constants/section-ids';
 import Image from 'next/image';

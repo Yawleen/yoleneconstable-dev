@@ -1,4 +1,4 @@
-import Section from '../Section';
+import Section from '../layout/Section';
 import { motion } from 'motion/react';
 import { fadeIn } from '../../lib/animations';
 
@@ -14,8 +14,8 @@ const About = () => {
         <p className="description text-xl md:text-2xl text-foreground/90 mb-4 md:mb-6">
           J&apos;aborde le développement frontend avec la même{' '}
           <span className="keyword">discipline</span>, la même{' '}
-          <span className="keyword">constance</span>{' '} et la même recherche
-          d&apos;<span className="keyword">amélioration continue</span>{' '} que dans
+          <span className="keyword">constance</span> et la même recherche
+          d&apos;<span className="keyword">amélioration continue</span> que dans
           l&apos;entraînement.
         </p>
         <p className="description">
