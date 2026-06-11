@@ -1,21 +1,9 @@
-'use client';
-
 import Section from '../Section';
 import LinkButton from '../LinkButton';
 import { SECTION_IDS } from '@/constants/section-ids';
 import Image from 'next/image';
 import { motion } from 'motion/react';
-
-const fadeIn = {
-  hidden: {
-    opacity: 0,
-    y: 16,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-  },
-};
+import { fadeIn } from '../../lib/animations';
 
 const container = {
   hidden: {},
