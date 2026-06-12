@@ -15,7 +15,7 @@ const Section = ({
     <section id={id} className={isHero ? 'border-b border-border' : ''}>
       <Container isHero={isHero}>
         {!isHero && subtitle && (
-          <h2 className="w-full max-w-md text-xs md:text-sm tracking-[0.2em] uppercase text-muted-foreground md:sticky md:top-8 md:self-start">
+          <h2 className="w-full max-w-xs shrink-0 text-xs md:text-sm tracking-[0.2em] uppercase text-muted-foreground md:sticky md:top-8 md:self-start">
             {subtitle}
           </h2>
         )}

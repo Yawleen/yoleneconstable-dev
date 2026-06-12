@@ -9,7 +9,7 @@ const Container = ({
 }) => {
   return (
     <div
-      className={`flex flex-col gap-10 w-full max-w-250 mx-auto ${isHero ? 'lg:flex-row lg:items-center' : 'md:flex-row'}`}
+      className={`flex flex-col gap-10 w-full max-w-300 mx-auto ${isHero ? 'lg:flex-row lg:items-center' : 'md:flex-row'}`}
     >
       {children}
     </div>
