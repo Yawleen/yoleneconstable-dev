@@ -151,7 +151,7 @@
     @apply border border-border hover:border-primary focus:border-primary;
   }
 
-  .grid {
+  .grid-layout {
     @apply grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8;
   }
 }
