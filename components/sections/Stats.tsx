@@ -10,7 +10,7 @@ const Stats = () => {
             key={stat.label}
             className="space-y-3 border-l border-border pl-6"
           >
-            <p className="text-4xl md:text-5xl text-primary">{stat.value}</p>
+            <p className="text-3xl md:text-4xl text-primary">{stat.value}</p>
             <p className="text-lg md:text-xl">{stat.label}</p>
           </div>
         ))}
