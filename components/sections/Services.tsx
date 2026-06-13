@@ -12,7 +12,7 @@ const Services = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
-        className="grid"
+        className="grid-layout"
       >
         {services.map((service) => (
           <ServiceCard
