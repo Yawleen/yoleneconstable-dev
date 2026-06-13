@@ -1,4 +1,8 @@
+import { TECHNOLOGY_CATEGORIES } from "@/constants/technologies";
+
+export type TechnologyCategory = (typeof TECHNOLOGY_CATEGORIES)[number];
+
 export interface Technology {
-  category: 'Frontend' | 'Outils';
+  category: TechnologyCategory;
   name: string;
 }

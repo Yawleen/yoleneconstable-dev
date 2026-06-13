@@ -1,3 +1,4 @@
+import { TECHNOLOGY_CATEGORIES } from '@/constants/technologies';
 import { Technology } from '../types/technology';
 
 export const technologies: Technology[] = [
@@ -38,3 +39,8 @@ export const technologies: Technology[] = [
     name: 'Git / GitHub',
   },
 ];
+
+export const technologiesByCategory = TECHNOLOGY_CATEGORIES.map((category) => ({
+  category,
+  technologies: technologies.filter((tech) => tech.category === category),
+}));

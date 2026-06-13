@@ -1,0 +1,1 @@
+export const TECHNOLOGY_CATEGORIES = ['Frontend', 'Outils'] as const;

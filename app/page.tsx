@@ -6,6 +6,7 @@ import Services from '@/components/sections/Services';
 import Projects from '@/components/sections/Projects';
 import Stats from '@/components/sections/Stats';
 import Experiences from '@/components/sections/Experiences';
+import Tech from '@/components/sections/Tech';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <Stats />
       <Experiences />
+      <Tech />
     </main>
   );
 }
