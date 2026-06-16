@@ -154,4 +154,8 @@
   .grid-layout {
     @apply grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8;
   }
+
+  .social-icon {
+    @apply size-4 md:size-5;
+  }
 }

@@ -8,6 +8,7 @@ import Stats from '@/components/sections/Stats';
 import Experiences from '@/components/sections/Experiences';
 import Tech from '@/components/sections/Tech';
 import Testimonials from '@/components/sections/Testimonials';
+import Contact from '@/components/sections/Contact';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Experiences />
       <Tech />
       <Testimonials />
+      <Contact />
     </main>
   );
 }
