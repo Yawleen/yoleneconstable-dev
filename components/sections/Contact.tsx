@@ -1,11 +1,13 @@
 import Section from '../layout/Section';
 import Link from 'next/link';
 import { Mail, Link2, FolderGit } from 'lucide-react';
+import { motion } from 'motion/react';
+import { fadeIn } from '@/lib/animations';
 
 const Contact = () => {
   return (
     <Section subtitle="Contact">
-      <div className="space-y-12">
+      <motion.div variants={fadeIn} className="space-y-12">
         <h3>
           Construisons votre
           <br />
@@ -40,7 +42,7 @@ const Contact = () => {
             <span>GitHub</span>
           </Link>
         </div>
-      </div>
+      </motion.div>
     </Section>
   );
 };
