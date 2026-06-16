@@ -33,6 +33,7 @@ const Section = ({
             variants={staggerContainer}
             initial="hidden"
             whileInView="visible"
+            viewport={{ once: true, amount: 0.1 }}
           >
             {children}
           </motion.div>
