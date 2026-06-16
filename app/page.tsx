@@ -7,6 +7,7 @@ import Projects from '@/components/sections/Projects';
 import Stats from '@/components/sections/Stats';
 import Experiences from '@/components/sections/Experiences';
 import Tech from '@/components/sections/Tech';
+import Testimonials from '@/components/sections/Testimonials';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Stats />
       <Experiences />
       <Tech />
+      <Testimonials />
     </main>
   );
 }
