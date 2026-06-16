@@ -1,19 +1,11 @@
 import Section from '../layout/Section';
 import { services } from '@/data/services';
 import ServiceCard from '../ServiceCard';
-import { motion } from 'motion/react';
-import { staggerContainer } from '@/lib/animations';
 
 const Services = () => {
   return (
     <Section subtitle="Services">
-      <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
-        className="grid-layout"
-      >
+      <div className="grid-layout">
         {services.map((service) => (
           <ServiceCard
             key={service.title}
@@ -22,7 +14,7 @@ const Services = () => {
             description={service.description}
           />
         ))}
-      </motion.div>
+      </div>
     </Section>
   );
 };

@@ -1,3 +1,4 @@
+import { staggerContainer } from '@/lib/animations';
 import Container from './Container';
 import { motion } from 'motion/react';
 
@@ -25,7 +26,17 @@ const Section = ({
             {subtitle}
           </motion.h2>
         )}
-        {children}
+        {isHero ? (
+          children
+        ) : (
+          <motion.div
+            variants={staggerContainer}
+            initial="hidden"
+            whileInView="visible"
+          >
+            {children}
+          </motion.div>
+        )}
       </Container>
     </section>
   );

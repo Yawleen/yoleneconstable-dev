@@ -21,9 +21,6 @@ const SelectedProject = ({
   return (
     <motion.div
       variants={fadeIn}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.1 }}
       className="relative group py-10 space-y-6 border-b border-border md:space-y-4 md:py-12 last:border-b-0"
     >
       <div className="flex flex-wrap items-center gap-4 text-xs text-muted-foreground md:text-sm">
