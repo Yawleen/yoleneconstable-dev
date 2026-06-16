@@ -1,10 +1,11 @@
 import Section from '../layout/Section';
 import { projects } from '../../data/projects';
 import SelectedProject from '../SelectedProject';
+import { SECTION_IDS } from '@/constants/section-ids';
 
 const Projects = () => {
   return (
-    <Section subtitle="Projets sélectionnés">
+    <Section id={SECTION_IDS.PROJECTS} subtitle="Projets sélectionnés">
       {projects.map((project) => (
         <SelectedProject
           key={project.title}

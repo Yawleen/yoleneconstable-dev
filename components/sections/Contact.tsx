@@ -3,10 +3,11 @@ import Link from 'next/link';
 import { Mail, Link2, FolderGit } from 'lucide-react';
 import { motion } from 'motion/react';
 import { fadeIn } from '@/lib/animations';
+import { SECTION_IDS } from '@/constants/section-ids';
 
 const Contact = () => {
   return (
-    <Section subtitle="Contact">
+    <Section id={SECTION_IDS.CONTACT} subtitle="Contact">
       <motion.div variants={fadeIn} className="space-y-12">
         <h3>
           Construisons votre
