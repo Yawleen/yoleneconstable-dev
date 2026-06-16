@@ -126,7 +126,7 @@
 
   footer,
   section {
-    @apply px-(--section-x-mobile) py-(--section-y-mobile) md:px-(--section-x-desktop) md:py-(--section-y-desktop);
+    @apply px-(--section-x-mobile) py-(--section-y-mobile) md:px-(--section-x-desktop) md:py-(--section-y-desktop) even:bg-secondary/30;
   }
 }
 
