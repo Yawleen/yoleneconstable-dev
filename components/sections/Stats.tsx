@@ -1,20 +1,23 @@
 import Section from '../layout/Section';
 import { statistics } from '@/data/stats';
+import { motion } from 'motion/react';
+import { staggerContainer } from '@/lib/animations';
+import StatCard from '../StatCard';
 
 const Stats = () => {
   return (
     <Section subtitle="Quelques chiffres">
-      <div className="grid-layout md:gap-12">
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+        className="grid-layout md:gap-12"
+      >
         {statistics.map((stat) => (
-          <div
-            key={stat.label}
-            className="space-y-3 border-l border-border pl-6"
-          >
-            <p className="text-3xl md:text-4xl text-primary">{stat.value}</p>
-            <p className="text-lg md:text-xl">{stat.label}</p>
-          </div>
+          <StatCard key={stat.label} value={stat.value} label={stat.label} />
         ))}
-      </div>
+      </motion.div>
     </Section>
   );
 };
