@@ -1,26 +1,29 @@
 import Section from '../layout/Section';
 import { experiences } from '@/data/experiences';
+import ExperienceCard from '../ExperienceCard';
+import { motion } from 'motion/react';
+import { staggerContainer } from '@/lib/animations';
 
 const Experiences = () => {
   return (
     <Section subtitle="Expériences">
-      <div className="space-y-12">
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
+        className="space-y-12"
+      >
         {experiences.map((experience) => (
-          <div
+          <ExperienceCard
             key={`${experience.company}-${experience.period}`}
-            className="space-y-4 pb-12 not-last:border-b not-last:border-border"
-          >
-            <div className="flex flex-col gap-4 md:flex-row md:justify-between">
-              <div>
-                <h3 className="mb-2">{experience.title}</h3>
-                <p className="text-lg md:text-xl">{experience.company}</p>
-              </div>
-              <p>{experience.period}</p>
-            </div>
-            <p className="description">{experience.description}</p>
-          </div>
+            title={experience.title}
+            company={experience.company}
+            period={experience.period}
+            description={experience.description}
+          />
         ))}
-      </div>
+      </motion.div>
     </Section>
   );
 };
