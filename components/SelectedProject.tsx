@@ -3,6 +3,8 @@ import ProjectCarousel from './ProjectCarousel';
 import LinkButton from './LinkButton';
 import { ArrowUpRight } from 'lucide-react';
 import ProjectVersions from './ProjectVersions';
+import { motion } from 'motion/react';
+import { fadeIn } from '@/lib/animations';
 
 const SelectedProject = ({
   date,
@@ -17,7 +19,13 @@ const SelectedProject = ({
   projectUrl,
 }: Project) => {
   return (
-    <div className="relative group py-10 space-y-6 border-b border-border md:space-y-4 md:py-12 last:border-b-0">
+    <motion.div
+      variants={fadeIn}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.1 }}
+      className="relative group py-10 space-y-6 border-b border-border md:space-y-4 md:py-12 last:border-b-0"
+    >
       <div className="flex flex-wrap items-center gap-4 text-xs text-muted-foreground md:text-sm">
         <span>{date}</span>
         <span>·</span>
@@ -59,7 +67,7 @@ const SelectedProject = ({
         />
       )}
       <div className="absolute bottom-0 left-0 w-0 h-px bg-primary group-hover:w-full transition-all duration-300"></div>
-    </div>
+    </motion.div>
   );
 };
 
