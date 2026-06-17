@@ -2,6 +2,7 @@ import './globals.css';
 import { Inter, Space_Grotesk } from 'next/font/google';
 import { Metadata } from 'next';
 import Footer from '@/components/layout/Footer';
+import { Analytics } from '@vercel/analytics/next';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
@@ -67,6 +68,7 @@ export default function RootLayout({
       >
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
