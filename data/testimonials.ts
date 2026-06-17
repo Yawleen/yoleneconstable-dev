@@ -2,7 +2,7 @@ import { Testimonial } from '../types/testimonial';
 
 export const testimonials: Testimonial[] = [
   {
-    avatar: '/images/janisse-constable.png',
+    avatar: '/images/janisse-constable.webp',
     name: 'Janisse Constable',
     initials: 'JC',
     role: 'Miss Hauts-de-Seine 2026',
