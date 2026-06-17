@@ -12,7 +12,7 @@ export const services: Service[] = [
     icon: ShoppingCart,
     title: 'Sites e-commerce',
     description:
-      "Des boutiques en ligne avec paiements sécurisés via Stripe, conçues pour offrir une expérience d'achat fluide et favoriser les conversions",
+      "Des boutiques en ligne avec paiements sécurisés via Stripe, conçues pour offrir une expérience d'achat fluide et favoriser les conversions.",
   },
   {
     icon: Target,
@@ -24,6 +24,6 @@ export const services: Service[] = [
     icon: RefreshCw,
     title: 'Refonte de sites web',
     description:
-      'Modernisez votre site existant avec une interface plus performante, responsive et adaptée aux attentes actuelles de vos utilisateurs.',
+      'Modernisez votre site existant avec une interface plus performante, compatible sur tout appareil et adaptée aux attentes actuelles de vos utilisateurs.',
   },
 ];
