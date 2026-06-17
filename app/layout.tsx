@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: 'Yolène Constable',
     images: [
       {
-        url: 'images/og-image.png',
+        url: 'images/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Yolène Constable - Développeuse Front-End React & Next.js',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: 'Yolène Constable | Développeuse Front-End React & Next.js',
     description:
       'Découvrez mon portfolio, mes projets web, mon expérience et mes services de création de sites vitrines, e-commerce et landing pages.',
-    images: ['images/og-image.png'],
+    images: ['images/og-image.webp'],
   },
 };
 
