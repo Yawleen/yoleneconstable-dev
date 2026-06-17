@@ -40,7 +40,7 @@ const ProjectCarousel = ({ images }: { images: ProjectImage[] }) => {
         setApi={setApi}
       >
         <CarouselContent className="ml-0 gap-4">
-          {images.map((image, index) => (
+          {images.map((image) => (
             <CarouselItem key={image.url} className="pl-0">
               <span className="block mb-4 text-center text-xs text-muted-foreground md:mb-6">
                 {image.alt}
