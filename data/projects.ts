@@ -8,15 +8,15 @@ export const projects: Project[] = [
     title: 'Site vitrine Miss Hauts-de-Seine / Miss Île-de-France 2026',
     images: [
       {
-        url: '/images/mockup-home-miss-idf.png',
+        url: '/images/mockup-home-miss-idf.webp',
         alt: "Bannière d'accueil du site vitrine Miss Île-de-France",
       },
       {
-        url: '/images/mockup-vote-miss-hds.png',
+        url: '/images/mockup-vote-miss-hds.webp',
         alt: 'Section vote du site vitrine Miss Hauts-de-Seine',
       },
       {
-        url: '/images/mockup-gallery-miss-idf.png',
+        url: '/images/mockup-gallery-miss-idf.webp',
         alt: 'Section galerie du site vitrine Miss Île-de-France',
       },
     ],
@@ -45,15 +45,15 @@ export const projects: Project[] = [
       "Site e-commerce pour une artiste tatoueuse et créatrice d'objets d'art",
     images: [
       {
-        url: '/images/mockup-home-louille.png',
+        url: '/images/mockup-home-louille.webp',
         alt: "Page d'accueil du site e-commerce de Louille, artiste tatoueuse et créatrice d'objets d'art",
       },
       {
-        url: '/images/mockup-shop-louille.png',
+        url: '/images/mockup-shop-louille.webp',
         alt: "Page shopping du site e-commerce de Louille, artiste tatoueuse et créatrice d'objets d'art",
       },
       {
-        url: '/images/mockup-cart-louille.png',
+        url: '/images/mockup-cart-louille.webp',
         alt: "Page panier du site e-commerce de Louille, artiste tatoueuse et créatrice d'objets d'art",
       },
     ],
@@ -77,19 +77,19 @@ export const projects: Project[] = [
       "Plateforme communautaire du Conseil Syndical de la Résidence d'Acosta",
     images: [
       {
-        url: '/images/mockup-home-cs.png',
+        url: '/images/mockup-home-cs.webp',
         alt: "Page d'accueil de la plateforme communautaire du Conseil Syndical de la Résidence d'Acosta",
       },
       {
-        url: '/images/mockup-agenda-cs.png',
+        url: '/images/mockup-agenda-cs.webp',
         alt: "Page agenda de la plateforme communautaire du Conseil Syndical de la Résidence d'Acosta",
       },
       {
-        url: '/images/mockup-docs-cs.png',
+        url: '/images/mockup-docs-cs.webp',
         alt: "Page documents de la plateforme communautaire du Conseil Syndical de la Résidence d'Acosta",
       },
       {
-        url: '/images/mockup-news-cs.png',
+        url: '/images/mockup-news-cs.webp',
         alt: "Page actualités de la plateforme communautaire du Conseil Syndical de la Résidence d'Acosta",
       },
     ],
