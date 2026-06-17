@@ -26,6 +26,7 @@ Le portfolio met en avant :
 ### Outils
 
 * Git & GitHub
+* Vercel
 * ESLint
 
 ## Fonctionnalités
@@ -35,7 +36,7 @@ Le portfolio met en avant :
 * Accessibilité
 * Performance optimisée
 * Animations fluides
-* Présentation de projets et études de cas
+* Présentation de projets
 
 ## Installation
 
@@ -97,7 +98,7 @@ Analyse le code avec ESLint.
 
 ## Déploiement
 
-Le projet est déployé sur GitHub Pages et accessible à l'adresse :
+Le projet est déployé sur Vercel et accessible à l'adresse :
 
 [yoleneconstable.dev](https://yoleneconstable.dev)
 
