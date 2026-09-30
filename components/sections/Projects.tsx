@@ -11,6 +11,7 @@ const Projects = () => {
           key={project.title}
           title={project.title}
           images={project.images}
+          mention={project.mention}
           date={project.date}
           category={project.category}
           status={project.status}

@@ -60,8 +60,8 @@ const ProjectVersions = ({ versions }: { versions: ProjectVersion[] }) => {
                     <span
                       className={`inline-flex px-2 py-1 rounded-full text-xs uppercase tracking-wider whitespace-nowrap md:px-3 ${
                         version.status === 'Terminé'
-                          ? 'bg-primary/10 text-primary border border-primary/20'
-                          : 'bg-muted text-muted-foreground border border-border'
+                          ? 'completed-style'
+                          : 'in-progress-style'
                       }`}
                     >
                       {version.status}

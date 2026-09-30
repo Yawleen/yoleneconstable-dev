@@ -20,6 +20,7 @@ export interface Project {
   status: ProjectStatus;
   title: string;
   images: ProjectImage[];
+  mention?: string;
   description: string;
   goal: string;
   stack: string[];

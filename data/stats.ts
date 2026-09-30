@@ -10,8 +10,8 @@ export const statistics: Statistic[] = [
     label: "d'alternance en entreprise",
   },
   {
-    value: '3',
-    label: 'projets clients en cours',
+    value: '1',
+    label: 'projet client en cours',
   },
   {
     value: '100%',

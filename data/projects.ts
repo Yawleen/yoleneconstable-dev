@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     date: '2026',
     category: 'Site événementiel',
-    status: "En cours d'évolution",
+    status: 'Terminé',
     title: 'Site vitrine Miss Hauts-de-Seine / Miss Île-de-France 2026',
     images: [
       {
@@ -27,13 +27,12 @@ export const projects: Project[] = [
     versions: [
       {
         title: 'V1 — Site Miss Hauts-de-Seine 2026',
-        url: 'https://janisse-constable-website-1vcctfppy-yawleens-projects.vercel.app/',
         status: 'Terminé',
       },
       {
         title: 'V2 — Site Miss Île-de-France 2026',
-        url: 'https://janisseconstable.fr',
-        status: 'En cours de développement',
+        url: 'https://janisse-constable-website-nc7iwih2u-yawleens-projects.vercel.app/',
+        status: 'Terminé',
       },
     ],
   },
@@ -45,10 +44,6 @@ export const projects: Project[] = [
       "Site e-commerce pour une artiste tatoueuse et créatrice d'objets d'art",
     images: [
       {
-        url: '/images/mockup-home-louille.webp',
-        alt: "Page d'accueil du site e-commerce de Louille, artiste tatoueuse et créatrice d'objets d'art",
-      },
-      {
         url: '/images/mockup-shop-louille.webp',
         alt: "Page shopping du site e-commerce de Louille, artiste tatoueuse et créatrice d'objets d'art",
       },
@@ -57,8 +52,10 @@ export const projects: Project[] = [
         alt: "Page panier du site e-commerce de Louille, artiste tatoueuse et créatrice d'objets d'art",
       },
     ],
+    mention:
+      'Visuels issus de la phase de conception. Ils ne représentent pas la version finale du produit.',
     description:
-      "Conception et développement d'un site e-commerce permettant à une artiste de présenter son univers, mettre en valeur ses créations et commercialiser ses produits en ligne. Le site combine portfolio artistique, catalogue produits et parcours d'achat sécurisé.",
+      "Conception et développement d'un site e-commerce permettant à une artiste de présenter son univers, mettre en valeur ses créations et commercialiser ses produits en ligne. Le site contient un catalogue produits et un parcours d'achat sécurisé.",
     goal: "Développer la visibilité de l'activité, valoriser les créations de l'artiste et proposer une expérience d'achat fluide grâce à une solution de paiement sécurisée.",
     stack: [
       'Next.js',
@@ -72,7 +69,7 @@ export const projects: Project[] = [
   {
     date: '2026',
     category: 'Plateforme communautaire',
-    status: 'En cours de développement',
+    status: 'Terminé',
     title:
       "Plateforme communautaire du Conseil Syndical de la Résidence d'Acosta",
     images: [
@@ -85,10 +82,6 @@ export const projects: Project[] = [
         alt: "Page agenda de la plateforme communautaire du Conseil Syndical de la Résidence d'Acosta",
       },
       {
-        url: '/images/mockup-docs-cs.webp',
-        alt: "Page documents de la plateforme communautaire du Conseil Syndical de la Résidence d'Acosta",
-      },
-      {
         url: '/images/mockup-news-cs.webp',
         alt: "Page actualités de la plateforme communautaire du Conseil Syndical de la Résidence d'Acosta",
       },
@@ -97,5 +90,6 @@ export const projects: Project[] = [
       "Plateforme communautaire destinée aux copropriétaires de la Résidence d'Acosta afin de centraliser les actualités, documents et événements dans un espace unique, clair et facilement accessible.",
     goal: "Offrir un point d'accès unique aux ressources de la copropriété, améliorer la circulation de l'information et renforcer l'engagement des résidents.",
     stack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Sanity'],
+    projectUrl: 'https://conseil-syndical-dacosta.fr/',
   },
 ];

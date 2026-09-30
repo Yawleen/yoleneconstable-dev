@@ -12,6 +12,7 @@ const SelectedProject = ({
   status,
   title,
   images,
+  mention,
   description,
   goal,
   stack,
@@ -29,10 +30,15 @@ const SelectedProject = ({
         <span>{category}</span>
       </div>
       <h3>{title}</h3>
-      <span className="inline-block py-1 px-3 rounded-full text-xs uppercase mb-12 tracking-wider bg-muted text-muted-foreground border border-border md:text-sm md:mb-16">
+      <span
+        className={`inline-block py-1 px-3 rounded-full text-xs uppercase mb-12 tracking-wider border md:text-sm md:mb-16 ${status === 'Terminé' ? 'completed-style' : 'in-progress-style'}`}
+      >
         {status}
       </span>
       <ProjectCarousel images={images} />
+      {mention && (
+        <p className="italic text-center text-xs mb-4 md:mb-6">{mention}</p>
+      )}
       <p className="description mb-6 md:mb-8">{description}</p>
       <p className="text-sm uppercase tracking-wider text-muted-foreground/60 md:text-base">
         Objectif
