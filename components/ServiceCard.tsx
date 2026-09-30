@@ -11,7 +11,7 @@ const ServiceCard = ({ icon, title, description }: Service) => {
       className="space-y-6 p-8 md:p-10 border border-border hover:border-primary/50 hover:-translate-y-1 transition-all duration-300"
     >
       <Icon
-        className="size-7 md:size-8 text-muted-foreground/60"
+        className="size-7 md:size-8 text-muted-foreground/80"
         strokeWidth={1.5}
       />
       <div className="space-y-4">

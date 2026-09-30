@@ -40,18 +40,18 @@ const SelectedProject = ({
         <p className="italic text-center text-xs mb-4 md:mb-6">{mention}</p>
       )}
       <p className="description mb-6 md:mb-8">{description}</p>
-      <p className="text-sm uppercase tracking-wider text-muted-foreground/60 md:text-base">
+      <p className="text-sm uppercase tracking-wider text-muted-foreground/80 md:text-base">
         Objectif
       </p>
       <p className="text-foreground/80 mb-8 md:mb-10">{goal}</p>
-      <p className="text-sm uppercase tracking-wider text-muted-foreground/60 md:text-base">
+      <p className="text-sm uppercase tracking-wider text-muted-foreground/80 md:text-base">
         Technologies
       </p>
       <div className="flex flex-wrap gap-3 mb-10 md:mb-14">
         {stack.map((tech) => (
           <span
             key={tech}
-            className="text-xs text-muted-foreground/70 md:text-sm"
+            className="text-xs text-muted-foreground/80 md:text-sm"
           >
             {tech}
           </span>

@@ -35,7 +35,7 @@ const TestimonialCard = ({
         </div>
         <div className="space-y-0.5">
           <p className="text-foreground/90 tracking-tight">{name}</p>
-          <p className="text-muted-foreground/60 text-sm md:text-base">
+          <p className="text-muted-foreground/80 text-sm md:text-base">
             {role} {company && <span> • {company}</span>}
           </p>
           <p className="text-muted-foreground/40 text-xs flex items-center gap-1.5 md:text-sm">
