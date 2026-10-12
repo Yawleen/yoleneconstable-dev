@@ -7,7 +7,7 @@ const About = () => {
     <Section subtitle="À propos">
       <motion.div variants={fadeIn}>
         <p className="description text-xl md:text-2xl text-foreground/90 mb-4 md:mb-6">
-          J&apos;aborde le développement frontend avec la même{' '}
+          J&apos;aborde le développement Front-End avec la même{' '}
           <span className="keyword">discipline</span>, la même{' '}
           <span className="keyword">constance</span>{' '} et la même recherche
           d&apos;
