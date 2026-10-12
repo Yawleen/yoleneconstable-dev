@@ -2,7 +2,7 @@ import { Statistic } from '../types/statistic';
 
 export const statistics: Statistic[] = [
   {
-    value: '4+ ans',
+    value: '3+ ans',
     label: 'avec React & Next.js',
   },
   {
